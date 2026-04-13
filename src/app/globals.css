@@ -1,0 +1,158 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Spica-inspired atelier: warm black, champagne gold taglines, soft cream type */
+@layer base {
+  /* :root {
+    --void: #090807;
+    --surface: #100e0c;
+    --elevated: #181512;
+    --card: #1c1916;
+    --foreground: #ebe6df;
+    --foreground-muted: #8a8580;
+    --spica-gold: #c4a574;
+    --spica-gold-dim: #9a7f52;
+    --brand-teal: #a8bdb8;
+    --brand-teal-mid: #6d827d;
+    --brand-teal-fill: #1a2220;
+    --brand-terracotta: #b8927a;
+    --brand-terracotta-dim: #8f6f5a;
+
+    --line: rgba(196, 165, 116, 0.14);
+    --line-strong: rgba(196, 165, 116, 0.24);
+    --background: var(--void);
+    --border: var(--line);
+    --brand-cream: var(--surface);
+  } */
+
+  :root {
+    --void: #f7f4ef;              /* soft cream background (from logo bg tone) */
+    --surface: #f1ece4;           /* light warm section */
+    --elevated: #e7e1d8;          /* subtle elevation */
+    --card: #ffffff;              /* clean cards */
+  
+    --foreground: #0f3b44;        /* deep teal/navy from text */
+    --foreground-muted: #6b7c80;  /* muted teal-grey */
+  
+    --brand-teal: #1f5a63;        /* main teal from logo */
+    --brand-teal-mid: #2f6f78;    /* lighter teal */
+    --brand-teal-fill: #e3eef0;   /* very soft teal background */
+  
+    --brand-terracotta: #d2b49c;  /* warm sand tone */
+    --brand-terracotta-dim: #b8957c;
+  
+    /* Lines / borders */
+    --line: rgba(31, 90, 99, 0.12);        /* teal-based subtle lines */
+    --line-strong: rgba(210, 180, 156, 0.4); /* terracotta highlight lines */
+  
+    --background: var(--void);
+    --border: var(--line);
+    --brand-cream: #fbf8f3;       /* slightly warmer cream */
+  }
+
+  @keyframes floatSlow {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-6px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.animate-float-slow {
+  animation: floatSlow 6s ease-in-out infinite;
+}
+
+  body {
+    color: var(--foreground);
+    background-color: var(--void);
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16'%3E%3Cline x1='0' y1='8' x2='16' y2='8' stroke='%231f5a63' stroke-width='0.75' stroke-dasharray='2 3' opacity='0.06'/%3E%3Cline x1='8' y1='0' x2='8' y2='16' stroke='%231f5a63' stroke-width='0.75' stroke-dasharray='2 3' opacity='0.06'/%3E%3C/svg%3E");
+    background-size: 16px 16px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-display), system-ui, sans-serif;
+    font-weight: 500;
+    letter-spacing: -0.02em;
+  }
+}
+
+@layer components {
+  .grid-border {
+    @apply border;
+    border-color: var(--line);
+  }
+
+  .border-b-thin {
+    @apply border-b;
+    border-color: var(--line);
+  }
+
+  .border-t-thin {
+    @apply border-t;
+    border-color: var(--line);
+  }
+
+  .border-l-thin {
+    @apply border-l;
+    border-color: var(--line);
+  }
+
+  .border-r-thin {
+    @apply border-r;
+    border-color: var(--line);
+  }
+
+  .border-x-thin {
+    @apply border-x;
+    border-color: var(--line);
+  }
+
+  .border-y-thin {
+    @apply border-y;
+    border-color: var(--line);
+  }
+
+  /* Utility lines can go here if needed */
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+@layer utilities {
+  .link-underline {
+    @apply relative inline-block;
+  }
+
+  .link-underline::after {
+    content: '';
+    @apply pointer-events-none absolute bottom-0 left-0 h-px w-full origin-left scale-x-0 bg-current transition-transform duration-500;
+    transition-timing-function: cubic-bezier(0.22, 1, 0.36, 1);
+  }
+
+  @media (hover: hover) {
+    .link-underline:hover::after {
+      transform: scaleX(1);
+    }
+  }
+
+  /* Hero carousel: brown/navy cast — keep photos clearly visible */
+  .hero-carousel-img {
+    filter: sepia(0.12) saturate(0.88) hue-rotate(-6deg) brightness(0.72) contrast(1.04);
+  }
+
+}
