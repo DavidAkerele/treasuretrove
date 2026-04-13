@@ -9,18 +9,45 @@ const outfit = Outfit({
 })
 
 export const metadata: Metadata = {
-  title: 'Treasure Trove | Sewing Machines · Repairs · Manchester',
-  description:
-    'Professional repairs, servicing and sales for sewing kits, domestic and industrial sewing machines. Manchester workshop. UK-wide postal service.',
+  title: 'Treasure Trove | Premium Sewing Machine Engineering & Sales',
+  description: 'Master engineering for industrial and domestic machines. Manchester-based workshop specializing in high-end repairs, servicing, and certified sales for Brother, Juki, Bernina, and more.',
+  keywords: ['Sewing Machine Repair', 'Industrial Sewing Machines', 'Manchester', 'Bernina Service', 'Brother Repair', 'Bespoke Tailoring', 'Juki Sales', 'Treasure Trove'],
+  authors: [{ name: 'Treasure Trove Engineering' }],
+  metadataBase: new URL('https://www.treasuretrovesewingmachines.com'),
+  alternates: {
+    canonical: '/',
+  },
+  openGraph: {
+    title: 'Treasure Trove | Sewing Machine Engineering & Repairs',
+    description: 'Bespoke repair and sales of professional sewing equipment. Saville Row quality in the heart of Manchester.',
+    url: 'https://www.treasuretrovesewingmachines.com',
+    siteName: 'Treasure Trove',
+    images: [
+      {
+        url: '/og-image.png',
+        width: 1200,
+        height: 1200,
+        alt: 'Treasure Trove Workshop',
+      },
+    ],
+    locale: 'en_GB',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Treasure Trove | Sewing Machine Engineering',
+    description: 'Master engineering for industrial and domestic machines. Certified repairs and sales.',
+    images: ['/og-image.png'],
+  },
   icons: {
     icon: [
       {
-        url: '/TREASURE%20TROVE%20LOGO.png',
+        url: '/TREASURE TROVE LOGO.png',
         type: 'image/png',
         sizes: 'any',
       },
     ],
-    apple: '/TREASURE%20TROVE%20LOGO.png',
+    apple: '/TREASURE TROVE LOGO.png',
   },
 }
 
