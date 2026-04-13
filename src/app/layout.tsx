@@ -22,14 +22,6 @@ export const metadata: Metadata = {
     description: 'Bespoke repair and sales of professional sewing equipment. Saville Row quality in the heart of Manchester.',
     url: 'https://www.treasuretrovesewingmachines.com',
     siteName: 'Treasure Trove',
-    images: [
-      {
-        url: '/og-image.png',
-        width: 1200,
-        height: 1200,
-        alt: 'Treasure Trove Workshop',
-      },
-    ],
     locale: 'en_GB',
     type: 'website',
   },
@@ -37,7 +29,6 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Treasure Trove | Sewing Machine Engineering',
     description: 'Master engineering for industrial and domestic machines. Certified repairs and sales.',
-    images: ['/og-image.png'],
   },
   icons: {
     icon: [

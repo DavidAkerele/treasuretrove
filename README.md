@@ -2,7 +2,7 @@
 
 Treasure Trove is a premium digital platform for high-end sewing machine engineering, repairs, and sales. Based in Manchester, the brand bridges the gap between traditional Saville Row-grade tailoring and the modern machinery that powers it.
 
-![Treasure Trove Workshop Social Image](./public/og-image.png)
+![Treasure Trove Workshop Social Image](./src/app/opengraph-image.png)
 
 ## 🏛️ The Vision
 Treasure Trove is designed to feel like a high-end workshop—rugged yet refined. The interface uses a "Void-Teal-Terracotta" color system to evoke the feeling of historic industrial engineering met with bespoke creative output.
