@@ -3,19 +3,19 @@ export const brands = [
     id: 'brother',
     name: 'Brother',
     description: 'A titan in industrial and domestic sewing, Brother Industries has delivered precision engineering and high-volume reliability since 1908. Favored by tailoring workshops worldwide for consistent, heavy-duty production.',
-    logoUrl: '/TREASURE TROVE LOGO.png'
+    logoUrl: '/machine-domestic.png'
   },
   {
     id: 'juki',
     name: 'Juki',
     description: 'The undisputed backbone of global clothing manufacturing. Juki machines are revered across Saville Row and international factories for their unmatched speed, durability, and commercial-grade lockstitching perfection.',
-    logoUrl: '/TREASURE TROVE LOGO.png'
+    logoUrl: '/machine-industrial.png'
   },
   {
     id: 'janome',
     name: 'Janome',
     description: 'Pioneers of the accessible machine market. Japanese-engineered Janome models are beloved by independent designers and students for their intuitive interfaces, robust build quality, and creative versatility.',
-    logoUrl: '/TREASURE TROVE LOGO.png'
+    logoUrl: '/machine-domestic.png'
   },
   {
     id: 'bernina',
@@ -45,25 +45,25 @@ export const brands = [
     id: 'jack',
     name: 'Jack',
     description: 'Modern, innovative, and highly efficient. Jack sewing mechanics lead the modern industry in integrating direct-drive servo motors with advanced automated tailoring mechanisms.',
-    logoUrl: '/TREASURE TROVE LOGO.png'
+    logoUrl: '/machine-industrial.png'
   },
   {
     id: 'pfaff',
     name: 'Pfaff',
     description: 'Legendary German engineering since 1862. Pfaff is universally recognized for its flawless heavy-duty walking foot mechanisms and unmatched capability with leather and thick fabrics.',
-    logoUrl: '/TREASURE TROVE LOGO.png'
+    logoUrl: '/machine-heavy-duty.png'
   },
   {
     id: 'singer',
     name: 'Singer',
     description: 'The original name in sewing history. Synonymous with traditional tailoring heritage, Singer continues to combine legacy aesthetics with reliable, sturdy mechanics.',
-    logoUrl: '/TREASURE TROVE LOGO.png'
+    logoUrl: '/machine-heavy-duty.png'
   },
   {
     id: 'husqvarna',
     name: 'Husqvarna Viking',
     description: 'Swedish innovation and high-performance engineering. Husqvarna Viking is a leader in computerized garment construction and expressive embroidery technology for the modern studio.',
-    logoUrl: '/TREASURE TROVE LOGO.png'
+    logoUrl: '/machine-overlocker.png'
   },
   {
     id: 'merrow',
