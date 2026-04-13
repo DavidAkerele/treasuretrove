@@ -3,19 +3,19 @@ export const brands = [
     id: 'brother',
     name: 'Brother',
     description: 'A titan in industrial and domestic sewing, Brother Industries has delivered precision engineering and high-volume reliability since 1908. Favored by tailoring workshops worldwide for consistent, heavy-duty production.',
-    logoUrl: 'https://www.directsewingmachines.co.uk/wp-content/uploads/2023/08/brother-v2-300x115.png'
+    logoUrl: '/TREASURE TROVE LOGO.png'
   },
   {
     id: 'juki',
     name: 'Juki',
     description: 'The undisputed backbone of global clothing manufacturing. Juki machines are revered across Saville Row and international factories for their unmatched speed, durability, and commercial-grade lockstitching perfection.',
-    logoUrl: 'https://www.directsewingmachines.co.uk/wp-content/uploads/2023/08/juki-2-300x115.png'
+    logoUrl: '/TREASURE TROVE LOGO.png'
   },
   {
     id: 'janome',
     name: 'Janome',
     description: 'Pioneers of the accessible machine market. Japanese-engineered Janome models are beloved by independent designers and students for their intuitive interfaces, robust build quality, and creative versatility.',
-    logoUrl: 'https://www.directsewingmachines.co.uk/wp-content/uploads/2023/08/janome-v2-300x115.png'
+    logoUrl: '/TREASURE TROVE LOGO.png'
   },
   {
     id: 'bernina',
@@ -45,25 +45,25 @@ export const brands = [
     id: 'jack',
     name: 'Jack',
     description: 'Modern, innovative, and highly efficient. Jack sewing mechanics lead the modern industry in integrating direct-drive servo motors with advanced automated tailoring mechanisms.',
-    logoUrl: 'https://www.directsewingmachines.co.uk/wp-content/uploads/2023/08/jack-v2-300x115.png'
+    logoUrl: '/TREASURE TROVE LOGO.png'
   },
   {
     id: 'pfaff',
     name: 'Pfaff',
     description: 'Legendary German engineering since 1862. Pfaff is universally recognized for its flawless heavy-duty walking foot mechanisms and unmatched capability with leather and thick fabrics.',
-    logoUrl: 'https://www.directsewingmachines.co.uk/wp-content/uploads/2023/08/pfaff-v2-300x115.png'
+    logoUrl: '/TREASURE TROVE LOGO.png'
   },
   {
     id: 'singer',
     name: 'Singer',
     description: 'The original name in sewing history. Synonymous with traditional tailoring heritage, Singer continues to combine legacy aesthetics with reliable, sturdy mechanics.',
-    logoUrl: 'https://www.directsewingmachines.co.uk/wp-content/uploads/2023/08/singer-v2-300x115.png'
+    logoUrl: '/TREASURE TROVE LOGO.png'
   },
   {
     id: 'husqvarna',
     name: 'Husqvarna Viking',
     description: 'Swedish innovation and high-performance engineering. Husqvarna Viking is a leader in computerized garment construction and expressive embroidery technology for the modern studio.',
-    logoUrl: 'https://www.directsewingmachines.co.uk/wp-content/uploads/2023/08/husq-v2.png'
+    logoUrl: '/TREASURE TROVE LOGO.png'
   },
   {
     id: 'merrow',
@@ -132,7 +132,7 @@ export const machines = [
     brandId: 'brother',
     title: 'Brother FS40S Computerised',
     body: 'An easy to use computerized sewing machine featuring an LCD display and a wealth of great features.',
-    src: 'https://www.directsewingmachines.co.uk/wp-content/uploads/2021/04/brother-fs40s-sewing-machine.jpg',
+    src: '/machine-domestic.png',
     alt: 'Brother FS40S',
     price: 249,
     highlights: ['40 Stitches', 'LCD Display', 'Start/Stop Button'],
@@ -176,7 +176,7 @@ export const machines = [
     brandId: 'bernina',
     title: 'Bernina 770 QE PLUS',
     body: 'New features for quilters, including more stitch patterns and the BSR 3 mode for basting.',
-    src: 'https://www.directsewingmachines.co.uk/wp-content/uploads/2021/06/bernina-770-plus-sewing-machine.jpg',
+    src: '/machine-heavy-duty.png',
     alt: 'Bernina 770 QE PLUS',
     price: 4295,
     highlights: ['Extended freearm', 'Total stitch control', 'Quilting specialist'],
@@ -188,7 +188,7 @@ export const machines = [
     brandId: 'bernette',
     title: 'Bernette b77 Sewing Machine',
     body: 'An affordable sewing machine with a wide range of functions and high stitch quality.',
-    src: 'https://www.directsewingmachines.co.uk/wp-content/uploads/2019/11/bernette-b77-sewing-machine.jpg',
+    src: '/machine-domestic.png',
     alt: 'Bernette b77',
     price: 895,
     highlights: ['5-inch color touchscreen', 'Multi-function knobs', 'Programmable foot control'],
@@ -200,7 +200,7 @@ export const machines = [
     brandId: 'elna',
     title: 'Elna eXperience 550',
     body: 'A reliable and intuitive computerized sewing machine designed to handle various types of fabrics.',
-    src: 'https://www.directsewingmachines.co.uk/wp-content/uploads/2020/08/elna-experience-550-sewing-machine.jpg',
+    src: '/machine-domestic.png',
     alt: 'Elna 550',
     price: 499,
     highlights: ['50 Built-in stitches', 'LCD screen', 'LED lighting'],
@@ -212,7 +212,7 @@ export const machines = [
     brandId: 'babylock',
     title: 'Baby Lock Victory Serger',
     body: 'Features RevolutionAir™ Threading that threads the loopers with just a touch of a button.',
-    src: 'https://www.directsewingmachines.co.uk/wp-content/uploads/2020/09/baby-lock-victory-serger.jpg',
+    src: '/machine-overlocker.png',
     alt: 'Baby Lock Victory',
     price: 1995,
     highlights: ['Jet-Air Threading', 'Automatic Thread Delivery', 'Built-in needle threader'],
@@ -234,7 +234,7 @@ export const machines = [
     brandId: 'jack',
     title: 'Jack F4 Direct Drive',
     body: 'High-speed lockstitch machine with an integrated direct drive motor for power saving.',
-    src: 'https://www.directsewingmachines.co.uk/wp-content/uploads/2018/11/jack-f4-industrial-sewing-machine.jpg',
+    src: '/machine-industrial.png',
     alt: 'Jack F4',
     price: 495,
     highlights: ['Energy efficient', 'Stitch length adjustment', 'Quiet operation'],
@@ -258,7 +258,7 @@ export const machines = [
     brandId: 'singer',
     title: 'Singer Heavy Duty 4432',
     body: 'Built for speed and durability. A true workhorse with a heavy-duty metal interior frame.',
-    src: 'https://www.directsewingmachines.co.uk/wp-content/uploads/2020/09/singer-heavy-duty-4432-sewing-machine.jpg',
+    src: '/machine-heavy-duty.png',
     alt: 'Singer 4432',
     price: 369,
     highlights: ['32 Stitches', 'High-speed motor', 'Stainless steel bedplate'],
@@ -270,7 +270,7 @@ export const machines = [
     brandId: 'husqvarna',
     title: 'Husqvarna Viking Amber S100',
     body: 'An easy to use overlocker that gives a professional finish to your projects.',
-    src: 'https://www.directsewingmachines.co.uk/wp-content/uploads/2021/04/husqvarna-viking-amber-s100.jpg',
+    src: '/machine-overlocker.png',
     alt: 'Husqvarna Amber',
     price: 349,
     highlights: ['4, 3, 2 Thread', 'Built-in rolled edge', 'Differential feed'],
